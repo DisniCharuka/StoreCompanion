@@ -1,0 +1,37 @@
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\App.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainMenu.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainPage.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\Store Companion.xr.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\Store Companion.exe
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\Store Companion.pdb
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\resources.pri
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\AppxManifest.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\Store Companion.build.appxrecipe
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\App.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\App.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainMenu.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainMenu.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainPage.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainPage.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\XamlTypeInfo.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\App.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\App.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\XamlSaveStateFile.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainMenu.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainPage.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainMenu.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MainPage.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\Store Companion.exe
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\Store Companion.pdb
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\priconfig.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\priconfig.xml.intermediate
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\layout.resfiles
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\layout.resfiles.intermediate
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\resources.resfiles
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\resources.resfiles.intermediate
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\pri.resfiles
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\pri.resfiles.intermediate
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\qualifiers.txt
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\qualifiers.txt.intermediate
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProjectArchitectures.txt

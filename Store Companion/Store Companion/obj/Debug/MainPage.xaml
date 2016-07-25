@@ -25,8 +25,9 @@
         </StackPanel>
         
         <StackPanel Background="White" Grid.Row="2">
-            <Button x:Name="btnLogin" Content="LOGIN" Foreground="White" Background="Indigo" HorizontalAlignment="Center" Click="btnLogin_Click" />
+            <Button x:ConnectionId='1' x:Name="btnLogin" Content="LOGIN" Foreground="White" Background="Indigo" HorizontalAlignment="Center"                        />
         </StackPanel>
       
     </Grid>
 </Page>
+
