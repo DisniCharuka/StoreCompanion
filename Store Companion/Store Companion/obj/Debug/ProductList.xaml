@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="Store_Companion.ProductList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Store_Companion"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Background="LightBlue"  Grid.Row="0" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
+                <TextBlock Name="lblScreenHeading" Text="Product List" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Background="White">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Name="txtSearchProductName" Grid.Column="0"/>
+                <Button Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue"/>  
+            </Grid>
+        </StackPanel>
+        <StackPanel Background="AliceBlue" Grid.Row="2">
+            <ScrollViewer>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Name="lblProductType" Text="Type" Grid.Row="0" Foreground="Black" HorizontalAlignment="Left" FontSize="18"></TextBlock>
+                    <TextBlock Name="lblProductName" Text="Name" Grid.Row="1" Foreground="Black" HorizontalAlignment="Left"  FontSize="18"></TextBlock>
+                    <TextBlock Name="lblItemCode" Text="Item Code" Grid.Row="0" Foreground="Black" HorizontalAlignment="Right"  FontSize="18"></TextBlock>
+                    <TextBlock Name="lblTotalQty" Text="Total Quantity" Grid.Row="1" Foreground="Black" HorizontalAlignment="Right"  FontSize="18"></TextBlock>
+                </Grid>
+            </ScrollViewer>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
+            <Button Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" HorizontalAlignment="Stretch" FontSize="20"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
+
