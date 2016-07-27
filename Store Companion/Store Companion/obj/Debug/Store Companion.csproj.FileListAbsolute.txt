@@ -40,3 +40,8 @@ F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.g.cs
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\dlgAddOrModifyProduct.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\dlgAddOrModifyProduct.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\dlgAddOrModifyProduct.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\dlgAddOrModifyProduct.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\dlgAddOrModifyProduct.xbf

@@ -32,11 +32,11 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Name="txtSearchProductName" Grid.Column="0"/>
-                <Button Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue"/>  
+                <Button x:ConnectionId='2' Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"                                 />  
             </Grid>
         </StackPanel>
         <StackPanel Background="AliceBlue" Grid.Row="2">
-            <ScrollViewer>
+            <ScrollViewer x:ConnectionId='1'                             >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -49,7 +49,6 @@
                 </Grid>
             </ScrollViewer>
         </StackPanel>
-
         <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
             <Button Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" HorizontalAlignment="Stretch" FontSize="20"/>
         </StackPanel>

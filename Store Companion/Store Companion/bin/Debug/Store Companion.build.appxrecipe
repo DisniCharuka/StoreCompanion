@@ -51,6 +51,9 @@
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\dlgAddOrModifyProduct.xbf">
+      <PackagePath>dlgAddOrModifyProduct.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
