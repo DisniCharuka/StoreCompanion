@@ -13,18 +13,18 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Background="Indigo"  Grid.Row="0" >
+        <StackPanel Background="LightBlue"  Grid.Row="0" >
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="Wheat" FontWeight="Bold"/>
-                <TextBlock Name="lblScreenHeading" Text="Main menu" Grid.Row="1" FontSize="22" HorizontalAlignment="Left"/>
+                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
+                <TextBlock Name="lblScreenHeading" Text="Main menu" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
             </Grid>
         </StackPanel>
 
-        <StackPanel Background="White" Grid.Row="2">
+        <StackPanel Background="AliceBlue" Grid.Row="2">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -34,12 +34,12 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <Button Name="btnProductList" Grid.Row="0" Content="Product List" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
-                <Button Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
-                <Button Name="btnProductTypes" Grid.Row="2" Content="Product Types" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
-                <Button Name="btnSuppliers" Grid.Row="3" Content="Suppliers" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
-                <Button Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
-                <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="Indigo" Foreground="White" HorizontalAlignment="Center"></Button>
+                <Button Name="btnProductList" Grid.Row="0" Content="Product List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Tapped="btnProductList_Tapped"></Button>
+                <Button Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
+                <Button Name="btnProductTypes" Grid.Row="2" Content="Product Types" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
+                <Button Name="btnSuppliers" Grid.Row="3" Content="Suppliers" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
+                <Button Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
+                <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
             </Grid>
         </StackPanel>
     </Grid>

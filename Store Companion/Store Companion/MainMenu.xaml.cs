@@ -35,6 +35,11 @@ namespace Store_Companion
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private void btnProductList_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ProductList));
+        }
     }
 }
 

@@ -35,3 +35,8 @@ F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\qualifiers.
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\qualifiers.txt.intermediate
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProjectArchitectures.txt
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\ProductList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\Debug\ProductList.xbf

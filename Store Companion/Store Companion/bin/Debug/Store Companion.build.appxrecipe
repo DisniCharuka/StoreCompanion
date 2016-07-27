@@ -57,6 +57,9 @@
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\ProductList.xbf">
+      <PackagePath>ProductList.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
