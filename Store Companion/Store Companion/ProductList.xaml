@@ -50,8 +50,19 @@
             </ScrollViewer>
         </StackPanel>
         <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
-            <Button Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" HorizontalAlignment="Stretch" FontSize="20"/>
-        </StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
+                <Button Grid.Column="1" Content="Add Lot" Name="btnAddLot" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
+
+            </Grid>
+           </StackPanel>
         
     </Grid>
 </Page>

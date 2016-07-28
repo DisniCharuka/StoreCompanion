@@ -38,8 +38,6 @@ namespace Store_Companion
 
         private void ScrollViewer_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            DlgAddOrModifyProduct test = new DlgAddOrModifyProduct();
-            test.ShowAsync();
         }
 
         private void btnSearchProduct_Tapped(object sender, TappedRoutedEventArgs e)
