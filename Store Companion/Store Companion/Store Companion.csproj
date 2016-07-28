@@ -85,8 +85,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="dlgAddOrModifyProduct.xaml.cs">
-      <DependentUpon>dlgAddOrModifyProduct.xaml</DependentUpon>
+    <Compile Include="DlgAddOrModifyProduct.xaml.cs">
+      <DependentUpon>DlgAddOrModifyProduct.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
@@ -117,7 +117,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="dlgAddOrModifyProduct.xaml">
+    <Page Include="DlgAddOrModifyProduct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

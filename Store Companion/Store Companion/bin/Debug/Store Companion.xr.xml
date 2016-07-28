@@ -37,7 +37,7 @@
       <RootProperty Name="FontWeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Store_Companion.dlgAddOrModifyProduct" />
+    <RootType FullName="Store_Companion.DlgAddOrModifyProduct" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
