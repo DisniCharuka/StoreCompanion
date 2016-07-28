@@ -38,7 +38,7 @@ namespace Store_Companion
 
         private void ScrollViewer_Tapped(object sender, TappedRoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(ModifyProduct));
         }
 
         private void btnPrevious_Click(object sender, RoutedEventArgs e)

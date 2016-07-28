@@ -85,14 +85,17 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DlgAddOrModifyProduct.xaml.cs">
-      <DependentUpon>DlgAddOrModifyProduct.xaml</DependentUpon>
+    <Compile Include="LotList.xaml.cs">
+      <DependentUpon>LotList.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyProduct.xaml.cs">
+      <DependentUpon>ModifyProduct.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProductList.xaml.cs">
       <DependentUpon>ProductList.xaml</DependentUpon>
@@ -117,7 +120,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DlgAddOrModifyProduct.xaml">
+    <Page Include="LotList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -128,6 +131,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ModifyProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ProductList.xaml">
       <SubType>Designer</SubType>

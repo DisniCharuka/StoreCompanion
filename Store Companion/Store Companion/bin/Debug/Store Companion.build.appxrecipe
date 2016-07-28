@@ -51,14 +51,17 @@
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\DlgAddOrModifyProduct.xbf">
-      <PackagePath>DlgAddOrModifyProduct.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\LotList.xbf">
+      <PackagePath>LotList.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\ModifyProduct.xbf">
+      <PackagePath>ModifyProduct.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\Debug\ProductList.xbf">
       <PackagePath>ProductList.xbf</PackagePath>
