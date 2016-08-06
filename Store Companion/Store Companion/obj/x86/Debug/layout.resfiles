@@ -1,0 +1,23 @@
+Assets\Logo.scale-240.png
+Assets\SmallLogo.scale-240.png
+Assets\SplashScreen.scale-240.png
+Assets\Square71x71Logo.scale-240.png
+Assets\StoreLogo.scale-240.png
+Assets\WideLogo.scale-240.png
+App.xbf
+Interfaces\AddNewLot.xbf
+Interfaces\AddNewProduct.xbf
+Interfaces\LotList.xbf
+Interfaces\MainMenu.xbf
+Interfaces\MainPage.xbf
+Interfaces\ModifyProduct.xbf
+Interfaces\ProductList.xbf
+Interfaces\ProductType.xbf
+Interfaces\ProductTypeList.xbf
+Interfaces\Supplier.xbf
+Interfaces\SupplierList.xbf
+Interfaces\TotalAssets.xbf
+Store Companion.xr.xml
+TestDb.xbf
+Database\LyricsHub.sqlite
+Database\StoreCompanion.sqlite

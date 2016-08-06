@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\SQLite.Net.dll</file><file>\SQLite.Net.Platform.WinRT.dll</file><file>\Store Companion.exe</file></Files>

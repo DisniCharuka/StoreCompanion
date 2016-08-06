@@ -26,6 +26,8 @@ namespace Store_Companion
     public sealed partial class App : Application
     {
         private TransitionCollection transitions;
+        public static string path;
+        public static SQLite.Net.SQLiteConnection conn;
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -35,6 +37,9 @@ namespace Store_Companion
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+
+            path = Path.Combine(Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "LyricsHub.sqlite"));
+            conn = new SQLite.Net.SQLiteConnection(new SQLite.Net.Platform.WinRT.SQLitePlatformWinRT(), path);
         }
 
         /// <summary>
