@@ -31,16 +31,13 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Product Type:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtTypeId" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>
                     <TextBlock Text="Description:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtTypeDescription" Grid.Row="1" Grid.Column="1" FontSize="20"></TextBox>
+                    <TextBox Name="txtTypeDescription" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>
                    
                 </Grid>
             </ScrollViewer>

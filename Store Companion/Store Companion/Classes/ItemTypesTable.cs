@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite.Net.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,17 @@ namespace Store_Companion.Classes
 {
     class ItemTypesTable
     {
-        public string TypeId { get; set; }
+        [PrimaryKey, AutoIncrement]
+        public int TypeId { get; set; }
         public string TypeDescription { get; set; }
+
+
+        public List<ItemTypesTable> GetItemTypeDetails()
+        {
+            List<Classes.ItemTypesTable> itemTypes = (from p in App.conn.Table<Classes.ItemTypesTable>()
+                                                      select p).ToList();
+            return itemTypes;
+        }
     }
+    
 }

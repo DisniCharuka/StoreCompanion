@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Store_Companion.Classes;
 using SQLite.Net.Attributes;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -24,9 +25,6 @@ namespace Store_Companion.Interfaces
     /// </summary>
     public sealed partial class ProductType : Page
     {
-        DatabaseConnections databaseConnections;
-        SQLite.Net.SQLiteConnection conn;
-
         public ProductType()
         {
             this.InitializeComponent();
@@ -39,8 +37,6 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            txtTypeId.Text = "";
-            txtTypeDescription.Text = "";
         }
 
         public class ItemTypes
@@ -50,13 +46,19 @@ namespace Store_Companion.Interfaces
         }
 
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        private async void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            var s = conn.Insert(new ItemTypes()
-            {
-                TypeId = txtTypeId.Text,
-                TypeDescription = txtTypeDescription.Text
-            });
+            ItemTypesTable itemType = new ItemTypesTable();
+            App.conn.CreateTable<Classes.ItemTypesTable>();
+
+            itemType.TypeDescription = txtTypeDescription.Text;
+
+            App.conn.Insert(itemType);
+            MessageDialog messageBox = new MessageDialog("Successfully Inserted an new Item Type record.");
+            await messageBox.ShowAsync();
+            
+            txtTypeDescription.Text = "";
+
         }
     }
 }

@@ -38,28 +38,27 @@ namespace Store_Companion.Interfaces
 
         private void btnProductList_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            //Frame.Navigate(typeof(ProductList));
-            Frame.Navigate(typeof(TestDb));
+            Frame.Navigate(typeof(Interfaces.ProductList));
         }
 
         private void btnAddNewProduct_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Interfaces.AddNewProduct));
         }
 
         private void btnProductTypes_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ProductType));
+            Frame.Navigate(typeof(Interfaces.ProductType));
         }
 
         private void btnSuppliers_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Supplier));
+            Frame.Navigate(typeof(Interfaces.SupplierList));
         }
 
         private void btnTotalAssets_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(SupplierList));
+            Frame.Navigate(typeof(Interfaces.ProductTypeList));
         }
     }
 }

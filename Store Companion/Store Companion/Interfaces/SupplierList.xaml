@@ -35,8 +35,6 @@
             <ListView Name="supplierListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
             </ListView>
         </Grid>
-
-
         <Grid Grid.Row="3" Background="AliceBlue">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
@@ -45,7 +43,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="New Supplier" Name="btnNewSupplier" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
+            <Button Grid.Column="0" Content="New Supplier" Name="btnNewSupplier" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" VerticalAlignment="Top" Height="58" Click="btnNewSupplier_Click"/>
             <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
 
         </Grid>

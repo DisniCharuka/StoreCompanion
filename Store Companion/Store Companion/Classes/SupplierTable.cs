@@ -9,8 +9,6 @@ namespace Store_Companion.Classes
 {
     public class SupplierTable
     {
-        public List<String> supplierDetails = new List<string>();
-
         [PrimaryKey, AutoIncrement]
         public int SupplierId { get; set; }
         public string SupplierName { get; set; }
@@ -20,16 +18,7 @@ namespace Store_Companion.Classes
         {
             List<Classes.SupplierTable> suppliers = (from p in App.conn.Table<Classes.SupplierTable>()
                                                      select p).ToList();
-
-
-            //foreach (Classes.SupplierTable obj in suppliers)
-            //{
-            //    this.SupplierId = obj.SupplierId;
-            //    this.SupplierName = obj.SupplierName;
-            //    this.SupplierTele = obj.SupplierTele;
-
-            //}
-
+            
             return suppliers;
         }
     }

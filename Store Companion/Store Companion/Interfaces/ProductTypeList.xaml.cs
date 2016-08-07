@@ -22,9 +22,34 @@ namespace Store_Companion.Interfaces
     /// </summary>
     public sealed partial class ProductTypeList : Page
     {
+        Classes.ItemTypesTable itemTypesTable;
         public ProductTypeList()
         {
             this.InitializeComponent();
+            this.GetProductTypeDetails();
+        }
+
+        private void GetProductTypeDetails()
+        {
+            List<Classes.ItemTypesTable> itemTypeList;
+
+            itemTypesTable = new Classes.ItemTypesTable();
+            itemTypeList = itemTypesTable.GetItemTypeDetails();
+
+
+            foreach (Classes.ItemTypesTable obj in itemTypeList)
+            {
+
+                string typeDescription = obj.TypeDescription;
+                ListBoxItem listBoxItem = new ListBoxItem();
+                listBoxItem.Name = typeDescription;
+                listBoxItem.Width = itemTypeListView.Width - 10;
+                listBoxItem.Height = 35;
+                listBoxItem.HorizontalAlignment = HorizontalAlignment.Left;
+                listBoxItem.Content = typeDescription;
+                itemTypeListView.Items.Add(listBoxItem);
+
+            }
         }
 
         /// <summary>
@@ -34,6 +59,11 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void btnNewType_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.ProductType));
         }
     }
 }
