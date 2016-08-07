@@ -1,3 +1,26 @@
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\App.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewLot.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewProduct.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\LotList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainMenu.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainPage.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ModifyProduct.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductType.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductTypeList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\Supplier.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\SupplierList.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\TestDb.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\TotalAssets.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.xr.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.exe
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.pdb
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\resources.pri
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\AppxManifest.xml
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.build.appxrecipe
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\SQLite.Net.dll
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Store Companion.csprojResolveAssemblyReference.cache
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\App.g.i.cs
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\App.g.cs
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\AddNewLot.g.i.cs
@@ -38,7 +61,6 @@ F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfa
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\ProductType.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\ProductTypeList.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\Supplier.xaml
-F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\SupplierList.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\TestDb.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\TotalAssets.xaml
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\App.xbf
@@ -52,32 +74,11 @@ F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfa
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\ProductType.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\ProductTypeList.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\Supplier.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\SupplierList.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\TestDb.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\TotalAssets.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\XamlSaveStateFile.xml
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\App.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewLot.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewProduct.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\LotList.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainMenu.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainPage.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ModifyProduct.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductList.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductType.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductTypeList.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\Supplier.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\SupplierList.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\TestDb.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\TotalAssets.xbf
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.xr.xml
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.exe
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.pdb
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\resources.pri
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\AppxManifest.xml
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.build.appxrecipe
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\SQLite.Net.dll
-F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\SupplierList.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\SupplierList.xbf
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Store Companion.exe
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Store Companion.pdb
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Store Companion.csproj.GenerateResource.Cache
@@ -93,3 +94,8 @@ F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\qualifi
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\qualifiers.txt.intermediate
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\ProjectArchitectures.txt
+F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\test100.xbf
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\test100.g.i.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\test100.g.cs
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\test100.xaml
+F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\Interfaces\test100.xbf

@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Store_Companion.Supplier"
+    x:Class="Store_Companion.Interfaces.Supplier"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Store_Companion"
@@ -38,8 +38,8 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Supplier Id:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
-                    <ComboBox Name="txtSupplierId" Grid.Row="0" Grid.Column="1" FontSize="20"></ComboBox>
+                   <!-- <TextBlock Text="Supplier Id:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
+                    <ComboBox Name="txtSupplierId" Grid.Row="0" Grid.Column="1" FontSize="20"></ComboBox>-->
                     <TextBlock Text="Supplier Name:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
                     <TextBox Name="txtSupplierName" Grid.Row="1" Grid.Column="1" FontSize="20"></TextBox>
                     <TextBlock Text="Telephone:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"></TextBlock>
@@ -58,7 +58,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
+                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" Click="btnAdd_Click"/>
                 <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
 
             </Grid>

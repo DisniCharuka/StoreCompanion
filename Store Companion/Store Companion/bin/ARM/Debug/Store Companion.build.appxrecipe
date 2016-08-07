@@ -54,55 +54,77 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Database\StoreCompanion.sqlite">
+      <PackagePath>Database\StoreCompanion.sqlite</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Database\LyricsHub.sqlite">
+      <PackagePath>Database\LyricsHub.sqlite</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Store Companion.xr.xml">
       <PackagePath>Store Companion.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\AddNewLot.xbf">
-      <PackagePath>AddNewLot.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\AddNewLot.xbf">
+      <PackagePath>Interfaces\AddNewLot.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\AddNewProduct.xbf">
-      <PackagePath>AddNewProduct.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\AddNewProduct.xbf">
+      <PackagePath>Interfaces\AddNewProduct.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\LotList.xbf">
-      <PackagePath>LotList.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\LotList.xbf">
+      <PackagePath>Interfaces\LotList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\MainMenu.xbf">
-      <PackagePath>MainMenu.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainMenu.xbf">
+      <PackagePath>Interfaces\MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPage.xbf">
+      <PackagePath>Interfaces\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\ModifyProduct.xbf">
-      <PackagePath>ModifyProduct.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ModifyProduct.xbf">
+      <PackagePath>Interfaces\ModifyProduct.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\ProductList.xbf">
-      <PackagePath>ProductList.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ProductList.xbf">
+      <PackagePath>Interfaces\ProductList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\ProductType.xbf">
-      <PackagePath>ProductType.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ProductType.xbf">
+      <PackagePath>Interfaces\ProductType.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\ProductTypeList.xbf">
-      <PackagePath>ProductTypeList.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ProductTypeList.xbf">
+      <PackagePath>Interfaces\ProductTypeList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Supplier.xbf">
-      <PackagePath>Supplier.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\Supplier.xbf">
+      <PackagePath>Interfaces\Supplier.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\SupplierList.xbf">
-      <PackagePath>SupplierList.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\SupplierList.xbf">
+      <PackagePath>Interfaces\SupplierList.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\TestDb.xbf">
       <PackagePath>TestDb.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\TotalAssets.xbf">
-      <PackagePath>TotalAssets.xbf</PackagePath>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\TotalAssets.xbf">
+      <PackagePath>Interfaces\TotalAssets.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone.Debug</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone.Debug, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Phone.Debug</Name>
+      <Version>12.0.30113.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Phone.Debug, MinVersion = 12.0.30113.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.Phone.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
   </ItemGroup>
 </Project>

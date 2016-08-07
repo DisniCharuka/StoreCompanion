@@ -88,10 +88,10 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Item.cs" />
-    <Compile Include="Classes\Items.cs" />
-    <Compile Include="Classes\ItemTypes.cs" />
-    <Compile Include="Classes\Supplier.cs" />
+    <Compile Include="Classes\ItemTable.cs" />
+    <Compile Include="Classes\ItemsTable.cs" />
+    <Compile Include="Classes\ItemTypesTable.cs" />
+    <Compile Include="Classes\SupplierTable.cs" />
     <Compile Include="Interfaces\AddNewLot.xaml.cs">
       <DependentUpon>AddNewLot.xaml</DependentUpon>
     </Compile>
@@ -122,6 +122,9 @@
     </Compile>
     <Compile Include="Interfaces\ProductTypeList.xaml.cs">
       <DependentUpon>ProductTypeList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\test100.xaml.cs">
+      <DependentUpon>test100.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interfaces\Supplier.xaml.cs">
@@ -196,6 +199,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Interfaces\SupplierList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Interfaces\test100.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

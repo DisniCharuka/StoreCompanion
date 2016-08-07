@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
-namespace Store_Companion
+namespace Store_Companion.Interfaces
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -54,12 +54,12 @@ namespace Store_Companion
 
         private void btnSuppliers_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Supplier));
         }
 
         private void btnTotalAssets_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(SupplierList));
         }
     }
 }

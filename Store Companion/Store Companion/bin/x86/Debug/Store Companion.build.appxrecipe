@@ -99,6 +99,9 @@
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\SupplierList.xbf">
       <PackagePath>Interfaces\SupplierList.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\test100.xbf">
+      <PackagePath>Interfaces\test100.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\TestDb.xbf">
       <PackagePath>TestDb.xbf</PackagePath>
     </AppxPackagedFile>

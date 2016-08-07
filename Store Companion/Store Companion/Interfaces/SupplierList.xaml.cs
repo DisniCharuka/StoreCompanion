@@ -19,20 +19,46 @@ using Store_Companion.Classes;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
-namespace Store_Companion
+namespace Store_Companion.Interfaces
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class SupplierList : Page
     {
-        private Classes.Supplier supplier;
+        Classes.SupplierTable supplierTable;
         public SupplierList()
         {
             this.InitializeComponent();
+            this.GetSupplierDetails();
+            
+        }
 
-            supplier = new Classes.Supplier();
-            supplier.GetSupplierDetails();
+        private void GetSupplierDetails()
+        {
+            List<Classes.SupplierTable> supplierList;
+
+            supplierTable = new Classes.SupplierTable();
+            supplierList = supplierTable.GetSupplierDetails();
+
+
+            foreach (Classes.SupplierTable obj in supplierList)
+            {
+
+                string supName = obj.SupplierName;
+                string supTel = obj.SupplierTele;
+
+                string supplier = supName + "\t\t" + supTel;
+                ListBoxItem listBoxItem = new ListBoxItem();
+                listBoxItem.Name = supName;
+                listBoxItem.Width = supplierListView.Width - 10;
+                listBoxItem.Height = 35;
+                listBoxItem.HorizontalAlignment = HorizontalAlignment.Left;
+                listBoxItem.Content = supplier;
+                supplierListView.Items.Add(listBoxItem); 
+
+            }
+
 
 
         }
@@ -44,8 +70,7 @@ namespace Store_Companion
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-
-
+            
         }
 
 

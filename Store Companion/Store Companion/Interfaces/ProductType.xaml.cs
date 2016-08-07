@@ -17,7 +17,7 @@ using SQLite.Net.Attributes;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
-namespace Store_Companion
+namespace Store_Companion.Interfaces
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

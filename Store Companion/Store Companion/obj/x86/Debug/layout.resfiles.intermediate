@@ -16,6 +16,7 @@ Interfaces\ProductType.xbf
 Interfaces\ProductTypeList.xbf
 Interfaces\Supplier.xbf
 Interfaces\SupplierList.xbf
+Interfaces\test100.xbf
 Interfaces\TotalAssets.xbf
 Store Companion.xr.xml
 TestDb.xbf

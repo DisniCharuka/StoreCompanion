@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Store_Companion.MainMenu"
+    x:Class="Store_Companion.Interfaces.MainMenu"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Store_Companion"
@@ -34,12 +34,12 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <Button Name="btnProductList" Grid.Row="0" Content="Product List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Tapped="btnProductList_Tapped"></Button>
-                <Button Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Click="btnAddNewProduct_Click"></Button>
-                <Button Name="btnProductTypes" Grid.Row="2" Content="Product Types" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Click="btnProductTypes_Click"></Button>
-                <Button Name="btnSuppliers" Grid.Row="3" Content="Suppliers" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Click="btnSuppliers_Click"></Button>
-                <Button Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center" Click="btnTotalAssets_Click"></Button>
-                <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Center"></Button>
+                <Button Name="btnProductList" Grid.Row="0" Content="Product List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Tapped="btnProductList_Tapped"></Button>
+                <Button Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnAddNewProduct_Click"></Button>
+                <Button Name="btnProductTypes" Grid.Row="2" Content="Product Types" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnProductTypes_Click"></Button>
+                <Button Name="btnSuppliers" Grid.Row="3" Content="Suppliers" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnSuppliers_Click"></Button>
+                <Button Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnTotalAssets_Click"></Button>
+                <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"></Button>
             </Grid>
         </StackPanel>
     </Grid>
