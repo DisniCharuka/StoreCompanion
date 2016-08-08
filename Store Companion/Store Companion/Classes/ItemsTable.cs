@@ -10,11 +10,21 @@ namespace Store_Companion.Classes
     class ItemsTable
     {
         [PrimaryKey, AutoIncrement]
-        public string ItemCode { get; set; }
+        public int ItemCode { get; set; }
         public string ItemName { get; set; }
         public int TotalQuantity { get; set; }
         public int QuantityAlert { get; set; }
         public int ExpireAlert { get; set; }
         //no of days from exp.date
+        public string ProductType { get; set; }
+
+
+        public List<Classes.ItemsTable> GetItemsDetails()
+        {
+            List<Classes.ItemsTable> items = (from p in App.conn.Table<Classes.ItemsTable>()
+                                                     select p).ToList();
+
+            return items;
+        }
     }
 }

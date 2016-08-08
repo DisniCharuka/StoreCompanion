@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +23,26 @@ namespace Store_Companion.Interfaces
     /// </summary>
     public sealed partial class AddNewProduct : Page
     {
+        Classes.ItemTypesTable itemTypesTable;
         public AddNewProduct()
         {
             this.InitializeComponent();
+
+            this.GetProductTypeList();
+        }
+
+        private void GetProductTypeList()
+        {
+            List<Classes.ItemTypesTable> itemTypeList;
+
+            itemTypesTable = new Classes.ItemTypesTable();
+            itemTypeList = itemTypesTable.GetItemTypeDetails();
+
+            foreach (Classes.ItemTypesTable obj in itemTypeList)
+            {
+                string typeDescription = obj.TypeDescription;
+                cboProductType.Items.Add(typeDescription);
+            }
         }
 
         /// <summary>
@@ -34,6 +52,29 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private async void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.ItemsTable items = new Classes.ItemsTable();
+            App.conn.CreateTable<Classes.ItemsTable>();
+            //App.conn.Execute("DELETE FROM ItemsTable");
+
+            items.ProductType = cboProductType.PlaceholderText;
+            items.ItemName = txtItemName.Text;
+            items.QuantityAlert = Convert.ToInt32(txtQuantityAlert.Text);
+            items.ExpireAlert = Convert.ToInt32(txtExpDateAlert.Text);
+
+            App.conn.Insert(items);
+            MessageDialog messageBox = new MessageDialog("Sccessfully inserted a Product record.");
+            await messageBox.ShowAsync();
+
+            Frame.Navigate(typeof(AddNewLot), txtItemName.Text);
+
+            //cboProductType.PlaceholderText = "";
+            //txtItemName.Text = "";
+            //txtQuantityAlert.Text = "";
+            //txtExpDateAlert.Text = "";
         }
     }
 }

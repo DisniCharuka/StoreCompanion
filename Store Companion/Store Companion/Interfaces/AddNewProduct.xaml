@@ -41,7 +41,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="Product Type:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
-                    <ComboBox Name="cboProductType" Grid.Row="0" Grid.Column="1" FontSize="20"></ComboBox>
+                    <ComboBox Name="cboProductType" Grid.Row="0" Grid.Column="1" FontSize="20" Foreground="Black"></ComboBox>
                     <TextBlock Text="Item Code:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
                     <TextBox Name="txtItemCode" Grid.Row="1" Grid.Column="1" FontSize="20"></TextBox>
                     <TextBlock Text="Item Name:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"></TextBlock>
@@ -64,7 +64,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
+                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" Click="btnAdd_Click"/>
                 <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
 
             </Grid>
