@@ -22,9 +22,37 @@ namespace Store_Companion.Interfaces
     /// </summary>
     public sealed partial class ProductList : Page
     {
+        Classes.ItemsTable itemsTable;
         public ProductList()
         {
             this.InitializeComponent();
+            this.GetProductDetails();
+        }
+
+        private void GetProductDetails()
+        {
+            List<Classes.ItemsTable> productsList;
+
+            itemsTable = new Classes.ItemsTable();
+            productsList = itemsTable.GetItemsDetails();
+
+            foreach (Classes.ItemsTable obj in productsList)
+            {
+                string itemType = obj.ProductType;
+                string itemName = obj.ItemName;
+                int totalQty = obj.TotalQuantity;
+
+                string product = itemType + "\t\t" + itemName + "\t\t" + totalQty.ToString();
+                ListBoxItem listBoxItem = new ListBoxItem();
+                listBoxItem.Name = product;
+                listBoxItem.Width = productListView.Width - 10;
+                listBoxItem.Height = 35;
+                listBoxItem.HorizontalAlignment = HorizontalAlignment.Left;
+                listBoxItem.Content = product;
+                productListView.Items.Add(listBoxItem);
+
+            }
+
         }
 
         /// <summary>
@@ -38,12 +66,22 @@ namespace Store_Companion.Interfaces
 
         private void ScrollViewer_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(LotList));
+            Frame.Navigate(typeof(Interfaces.LotList));
         }
 
         private void btnSearchProduct_Tapped(object sender, TappedRoutedEventArgs e)
         {
             
+        }
+
+        private void btnAddProduct_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.AddNewProduct));
+        }
+
+        private void btnAddLot_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.AddNewLot));
         }
     }
 }

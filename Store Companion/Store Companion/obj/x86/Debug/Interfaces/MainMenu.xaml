@@ -33,6 +33,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Button x:ConnectionId='1' Name="btnProductList" Grid.Row="0" Content="Product List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"                               ></Button>
                 <Button x:ConnectionId='2' Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"                               ></Button>
@@ -40,6 +41,7 @@
                 <Button x:ConnectionId='4' Name="btnSuppliers" Grid.Row="3" Content="Suppliers" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"                           ></Button>
                 <Button x:ConnectionId='5' Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"                             ></Button>
                 <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"></Button>
+                <Button x:ConnectionId='6' Name="btnLotList" Grid.Row="6" Content="Lot List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"                         ></Button>
             </Grid>
         </StackPanel>
     </Grid>

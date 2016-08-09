@@ -68,7 +68,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
+                <Button x:ConnectionId='1' Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"                     />
                 <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
 
             </Grid>

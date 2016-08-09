@@ -22,9 +22,35 @@ namespace Store_Companion.Interfaces
     /// </summary>
     public sealed partial class LotList : Page
     {
+        Classes.ItemTable itemTable;
+        int lotNo;
         public LotList()
         {
             this.InitializeComponent();
+            this.GetLotDetails();
+        }
+
+        private void GetLotDetails()
+        {
+            List<Classes.ItemTable> lotList;
+
+            itemTable = new Classes.ItemTable();
+            lotList = itemTable.GetItemDetails();
+
+            foreach (Classes.ItemTable obj in lotList) {
+                lotNo = obj.LotNo;
+                //DateTime date = obj.BuyingDate;
+
+                // string lot = lotNo.ToString() + "\t\t" + date.ToString();
+                string lot = lotNo.ToString();
+                ListBoxItem listBoxItem = new ListBoxItem();
+                listBoxItem.Name = lot;
+                listBoxItem.Width = lotListView.Width - 10;
+                listBoxItem.Height = 35;
+                listBoxItem.HorizontalAlignment = HorizontalAlignment.Left;
+                listBoxItem.Content = lot;
+                lotListView.Items.Add(listBoxItem);
+            }
         }
 
         /// <summary>
@@ -38,17 +64,17 @@ namespace Store_Companion.Interfaces
 
         private void ScrollViewer_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ModifyProduct));
+            Frame.Navigate(typeof(Interfaces.ModifyProduct), lotNo);
         }
 
         private void btnPrevious_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ProductList));
+            Frame.Navigate(typeof(Interfaces.ProductList));
         }
 
         private void btnAddLot_Click(object sender, RoutedEventArgs e)
         {
-           // Frame.Navigate(typeof(AddNewLot));
+            Frame.Navigate(typeof(Interfaces.AddNewLot));
         }
     }
 }

@@ -34,6 +34,7 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            string x = e.Parameter.GetType().ToString();
         }
     }
 }

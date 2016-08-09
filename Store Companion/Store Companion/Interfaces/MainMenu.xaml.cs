@@ -60,6 +60,11 @@ namespace Store_Companion.Interfaces
         {
             Frame.Navigate(typeof(Interfaces.ProductTypeList));
         }
+
+        private void btnLotList_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.LotList));
+        }
     }
 }
 

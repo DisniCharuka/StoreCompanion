@@ -47,7 +47,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
-      <RootEvent Name="Tapped" />
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
@@ -85,12 +84,6 @@
     </RootType>
     <RootType FullName="Store_Companion.Interfaces.AddNewLot" />
     <RootType FullName="Store_Companion.Interfaces.AddNewProduct" />
-    <RootType FullName="Store_Companion.Interfaces.LotList" />
-    <RootType FullName="Store_Companion.Interfaces.MainMenu" />
-    <RootType FullName="Store_Companion.Interfaces.MainPage" />
-    <RootType FullName="Store_Companion.Interfaces.ModifyProduct" />
-    <RootType FullName="Store_Companion.Interfaces.ProductList" />
-    <RootType FullName="Store_Companion.Interfaces.ProductType" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Name" />
       <RootProperty Name="Width" />
@@ -99,6 +92,12 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
+    <RootType FullName="Store_Companion.Interfaces.LotList" />
+    <RootType FullName="Store_Companion.Interfaces.MainMenu" />
+    <RootType FullName="Store_Companion.Interfaces.MainPage" />
+    <RootType FullName="Store_Companion.Interfaces.ModifyProduct" />
+    <RootType FullName="Store_Companion.Interfaces.ProductList" />
+    <RootType FullName="Store_Companion.Interfaces.ProductType" />
     <RootType FullName="Store_Companion.Interfaces.ProductTypeList" />
     <RootType FullName="Store_Companion.Interfaces.Supplier" />
     <RootType FullName="Store_Companion.Interfaces.SupplierList" />

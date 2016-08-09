@@ -32,22 +32,14 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Name="txtSearchProductName" Grid.Column="0"/>
-                <Button x:ConnectionId='2' Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"                                 />  
+                <Button x:ConnectionId='3' Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"                                 />  
             </Grid>
         </StackPanel>
         <StackPanel Background="AliceBlue" Grid.Row="2">
-            <ScrollViewer x:ConnectionId='1'                             >
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Name="lblProductType" Text="Type" Grid.Row="0" Foreground="Black" HorizontalAlignment="Left" FontSize="18"></TextBlock>
-                    <TextBlock Name="lblProductName" Text="Name" Grid.Row="1" Foreground="Black" HorizontalAlignment="Left"  FontSize="18"></TextBlock>
-                    <TextBlock Name="lblItemCode" Text="Item Code" Grid.Row="0" Foreground="Black" HorizontalAlignment="Right"  FontSize="18"></TextBlock>
-                    <TextBlock Name="lblTotalQty" Text="Total Quantity" Grid.Row="1" Foreground="Black" HorizontalAlignment="Right"  FontSize="18"></TextBlock>
-                </Grid>
-            </ScrollViewer>
+            <Grid Background="AliceBlue" Grid.Row="2" >
+                <ListView Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
+                </ListView>
+            </Grid>
         </StackPanel>
         <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
             <Grid>
@@ -58,8 +50,8 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"/>
-                <Button Grid.Column="1" Content="Add Lot" Name="btnAddLot" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
+                <Button x:ConnectionId='1' Grid.Column="0" Content="Add Product" Name="btnAddProduct" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"                            />
+                <Button x:ConnectionId='2' Grid.Column="1" Content="Add Lot" Name="btnAddLot" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"                         />
 
             </Grid>
            </StackPanel>

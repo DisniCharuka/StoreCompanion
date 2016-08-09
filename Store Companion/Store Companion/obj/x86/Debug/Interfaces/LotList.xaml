@@ -36,16 +36,10 @@
             </Grid>
         </StackPanel>
         <StackPanel Background="AliceBlue" Grid.Row="2">
-            <ScrollViewer x:ConnectionId='3'                             >
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <TextBlock Name="lblLotNo" Text="Lot No" Grid.Row="0" Foreground="Black" HorizontalAlignment="Left" FontSize="18"></TextBlock>
-                    <TextBlock Name="lblLotDate" Text="Date" Grid.Row="0" Foreground="Black" HorizontalAlignment="Right"  FontSize="18"></TextBlock>
-                   
-                </Grid>
-            </ScrollViewer>
+            <Grid Background="AliceBlue" Grid.Row="2" >
+                <ListView Name="lotListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
+                </ListView>
+            </Grid>
         </StackPanel>
         <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
             <Grid>
