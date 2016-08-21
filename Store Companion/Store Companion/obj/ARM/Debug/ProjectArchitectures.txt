@@ -1,1 +1,1 @@
-F:\projects\StoreCompanion\Store Companion\Store Companion\Store Companion.csproj;arm
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Store Companion.csproj;arm

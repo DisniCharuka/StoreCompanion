@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,6 +24,7 @@ namespace Store_Companion.Interfaces
     public sealed partial class ProductList : Page
     {
         Classes.ItemsTable itemsTable;
+        ListBoxItem listBoxItem;
         public ProductList()
         {
             this.InitializeComponent();
@@ -38,12 +40,13 @@ namespace Store_Companion.Interfaces
 
             foreach (Classes.ItemsTable obj in productsList)
             {
+
                 string itemType = obj.ProductType;
                 string itemName = obj.ItemName;
                 int totalQty = obj.TotalQuantity;
 
                 string product = itemType + "\t\t" + itemName + "\t\t" + totalQty.ToString();
-                ListBoxItem listBoxItem = new ListBoxItem();
+                listBoxItem = new ListBoxItem();
                 listBoxItem.Name = product;
                 listBoxItem.Width = productListView.Width - 10;
                 listBoxItem.Height = 35;
@@ -83,5 +86,23 @@ namespace Store_Companion.Interfaces
         {
             Frame.Navigate(typeof(Interfaces.AddNewLot));
         }
+
+        private void Hawhawhaw(object sender, ItemClickEventArgs e)
+        {
+            int x = 0;
+        }
+
+        private void productListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void productListView_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string hawwa = ((ListView)sender).Name;
+
+
+        }
     }
 }
+

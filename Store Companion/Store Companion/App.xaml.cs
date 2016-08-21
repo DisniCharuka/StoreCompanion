@@ -39,23 +39,35 @@ namespace Store_Companion
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            HardwareButtons.BackPressed += HardwareButtons_BackPressed;
 
             path = Path.Combine(Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "db1.sqlite"));
             conn = new SQLite.Net.SQLiteConnection(new SQLite.Net.Platform.WinRT.SQLitePlatformWinRT(), path);
            
         }
 
-        private void OnBackRequested(object sender, BackPressedEventArgs e)
+        private void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
 
-            if (rootFrame.CanGoBack)
+            if (rootFrame != null && rootFrame.CanGoBack)
             {
                 e.Handled = true;
                 rootFrame.GoBack();
             }
         }
-        
+
+        //private void OnBackRequested(object sender, BackPressedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+
+        //    if (rootFrame.CanGoBack)
+        //    {
+        //        e.Handled = true;
+        //        rootFrame.GoBack();
+        //    }
+        //}
+
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used when the application is launched to open a specific file, to display

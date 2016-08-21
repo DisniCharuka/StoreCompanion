@@ -124,39 +124,41 @@ namespace Store_Companion.Store_Companion_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[15];
-            _typeNameTable[0] = "Store_Companion.AddNewLot";
+            _typeNameTable = new string[16];
+            _typeNameTable[0] = "Store_Companion.Interfaces.AddNewLot";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Store_Companion.AddNewProduct";
-            _typeNameTable[4] = "Store_Companion.LotList";
-            _typeNameTable[5] = "Store_Companion.MainMenu";
-            _typeNameTable[6] = "Store_Companion.MainPage";
-            _typeNameTable[7] = "Store_Companion.ModifyProduct";
-            _typeNameTable[8] = "Store_Companion.ProductList";
-            _typeNameTable[9] = "Store_Companion.ProductType";
-            _typeNameTable[10] = "Store_Companion.ProductTypeList";
-            _typeNameTable[11] = "Store_Companion.Supplier";
-            _typeNameTable[12] = "Store_Companion.SupplierList";
-            _typeNameTable[13] = "Store_Companion.TestDb";
-            _typeNameTable[14] = "Store_Companion.TotalAssets";
+            _typeNameTable[3] = "Store_Companion.Interfaces.AddNewProduct";
+            _typeNameTable[4] = "Store_Companion.Interfaces.LotList";
+            _typeNameTable[5] = "Store_Companion.Interfaces.MainMenu";
+            _typeNameTable[6] = "Store_Companion.Interfaces.MainPage";
+            _typeNameTable[7] = "Store_Companion.Interfaces.ModifyProduct";
+            _typeNameTable[8] = "Store_Companion.Interfaces.ProductList";
+            _typeNameTable[9] = "Store_Companion.Interfaces.ProductType";
+            _typeNameTable[10] = "Store_Companion.Interfaces.ProductTypeList";
+            _typeNameTable[11] = "Store_Companion.Interfaces.Supplier";
+            _typeNameTable[12] = "Store_Companion.Interfaces.SupplierList";
+            _typeNameTable[13] = "Store_Companion.Interfaces.test100";
+            _typeNameTable[14] = "Store_Companion.TestDb";
+            _typeNameTable[15] = "Store_Companion.Interfaces.TotalAssets";
 
-            _typeTable = new global::System.Type[15];
-            _typeTable[0] = typeof(global::Store_Companion.AddNewLot);
+            _typeTable = new global::System.Type[16];
+            _typeTable[0] = typeof(global::Store_Companion.Interfaces.AddNewLot);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Store_Companion.AddNewProduct);
-            _typeTable[4] = typeof(global::Store_Companion.LotList);
-            _typeTable[5] = typeof(global::Store_Companion.MainMenu);
-            _typeTable[6] = typeof(global::Store_Companion.MainPage);
-            _typeTable[7] = typeof(global::Store_Companion.ModifyProduct);
-            _typeTable[8] = typeof(global::Store_Companion.ProductList);
-            _typeTable[9] = typeof(global::Store_Companion.ProductType);
-            _typeTable[10] = typeof(global::Store_Companion.ProductTypeList);
-            _typeTable[11] = typeof(global::Store_Companion.Supplier);
-            _typeTable[12] = typeof(global::Store_Companion.SupplierList);
-            _typeTable[13] = typeof(global::Store_Companion.TestDb);
-            _typeTable[14] = typeof(global::Store_Companion.TotalAssets);
+            _typeTable[3] = typeof(global::Store_Companion.Interfaces.AddNewProduct);
+            _typeTable[4] = typeof(global::Store_Companion.Interfaces.LotList);
+            _typeTable[5] = typeof(global::Store_Companion.Interfaces.MainMenu);
+            _typeTable[6] = typeof(global::Store_Companion.Interfaces.MainPage);
+            _typeTable[7] = typeof(global::Store_Companion.Interfaces.ModifyProduct);
+            _typeTable[8] = typeof(global::Store_Companion.Interfaces.ProductList);
+            _typeTable[9] = typeof(global::Store_Companion.Interfaces.ProductType);
+            _typeTable[10] = typeof(global::Store_Companion.Interfaces.ProductTypeList);
+            _typeTable[11] = typeof(global::Store_Companion.Interfaces.Supplier);
+            _typeTable[12] = typeof(global::Store_Companion.Interfaces.SupplierList);
+            _typeTable[13] = typeof(global::Store_Companion.Interfaces.test100);
+            _typeTable[14] = typeof(global::Store_Companion.TestDb);
+            _typeTable[15] = typeof(global::Store_Companion.Interfaces.TotalAssets);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -191,19 +193,20 @@ namespace Store_Companion.Store_Companion_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_AddNewLot() { return new global::Store_Companion.AddNewLot(); }
-        private object Activate_3_AddNewProduct() { return new global::Store_Companion.AddNewProduct(); }
-        private object Activate_4_LotList() { return new global::Store_Companion.LotList(); }
-        private object Activate_5_MainMenu() { return new global::Store_Companion.MainMenu(); }
-        private object Activate_6_MainPage() { return new global::Store_Companion.MainPage(); }
-        private object Activate_7_ModifyProduct() { return new global::Store_Companion.ModifyProduct(); }
-        private object Activate_8_ProductList() { return new global::Store_Companion.ProductList(); }
-        private object Activate_9_ProductType() { return new global::Store_Companion.ProductType(); }
-        private object Activate_10_ProductTypeList() { return new global::Store_Companion.ProductTypeList(); }
-        private object Activate_11_Supplier() { return new global::Store_Companion.Supplier(); }
-        private object Activate_12_SupplierList() { return new global::Store_Companion.SupplierList(); }
-        private object Activate_13_TestDb() { return new global::Store_Companion.TestDb(); }
-        private object Activate_14_TotalAssets() { return new global::Store_Companion.TotalAssets(); }
+        private object Activate_0_AddNewLot() { return new global::Store_Companion.Interfaces.AddNewLot(); }
+        private object Activate_3_AddNewProduct() { return new global::Store_Companion.Interfaces.AddNewProduct(); }
+        private object Activate_4_LotList() { return new global::Store_Companion.Interfaces.LotList(); }
+        private object Activate_5_MainMenu() { return new global::Store_Companion.Interfaces.MainMenu(); }
+        private object Activate_6_MainPage() { return new global::Store_Companion.Interfaces.MainPage(); }
+        private object Activate_7_ModifyProduct() { return new global::Store_Companion.Interfaces.ModifyProduct(); }
+        private object Activate_8_ProductList() { return new global::Store_Companion.Interfaces.ProductList(); }
+        private object Activate_9_ProductType() { return new global::Store_Companion.Interfaces.ProductType(); }
+        private object Activate_10_ProductTypeList() { return new global::Store_Companion.Interfaces.ProductTypeList(); }
+        private object Activate_11_Supplier() { return new global::Store_Companion.Interfaces.Supplier(); }
+        private object Activate_12_SupplierList() { return new global::Store_Companion.Interfaces.SupplierList(); }
+        private object Activate_13_test100() { return new global::Store_Companion.Interfaces.test100(); }
+        private object Activate_14_TestDb() { return new global::Store_Companion.TestDb(); }
+        private object Activate_15_TotalAssets() { return new global::Store_Companion.Interfaces.TotalAssets(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -215,7 +218,7 @@ namespace Store_Companion.Store_Companion_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Store_Companion.AddNewLot
+            case 0:   //  Store_Companion.Interfaces.AddNewLot
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_AddNewLot;
                 userType.SetIsLocalType();
@@ -230,86 +233,93 @@ namespace Store_Companion.Store_Companion_XamlTypeInfo
                 xamlType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Store_Companion.AddNewProduct
+            case 3:   //  Store_Companion.Interfaces.AddNewProduct
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_AddNewProduct;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Store_Companion.LotList
+            case 4:   //  Store_Companion.Interfaces.LotList
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_4_LotList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Store_Companion.MainMenu
+            case 5:   //  Store_Companion.Interfaces.MainMenu
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_5_MainMenu;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Store_Companion.MainPage
+            case 6:   //  Store_Companion.Interfaces.MainPage
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Store_Companion.ModifyProduct
+            case 7:   //  Store_Companion.Interfaces.ModifyProduct
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_7_ModifyProduct;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  Store_Companion.ProductList
+            case 8:   //  Store_Companion.Interfaces.ProductList
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_8_ProductList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Store_Companion.ProductType
+            case 9:   //  Store_Companion.Interfaces.ProductType
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_9_ProductType;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Store_Companion.ProductTypeList
+            case 10:   //  Store_Companion.Interfaces.ProductTypeList
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_10_ProductTypeList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Store_Companion.Supplier
+            case 11:   //  Store_Companion.Interfaces.Supplier
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_11_Supplier;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Store_Companion.SupplierList
+            case 12:   //  Store_Companion.Interfaces.SupplierList
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_12_SupplierList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Store_Companion.TestDb
+            case 13:   //  Store_Companion.Interfaces.test100
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_TestDb;
+                userType.Activator = Activate_13_test100;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Store_Companion.TotalAssets
+            case 14:   //  Store_Companion.TestDb
                 userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_TotalAssets;
+                userType.Activator = Activate_14_TestDb;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Store_Companion.Interfaces.TotalAssets
+                userType = new global::Store_Companion.Store_Companion_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_TotalAssets;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -647,6 +657,5 @@ namespace Store_Companion.Store_Companion_XamlTypeInfo
         }
     }
 }
-
 
 

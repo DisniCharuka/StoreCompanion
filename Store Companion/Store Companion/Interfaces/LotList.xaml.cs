@@ -41,8 +41,9 @@ namespace Store_Companion.Interfaces
                 lotNo = obj.LotNo;
                 //DateTime date = obj.BuyingDate;
 
-                // string lot = lotNo.ToString() + "\t\t" + date.ToString();
-                string lot = lotNo.ToString();
+                //string lot = lotNo.ToString() + "\t\t" + date.ToString();
+                //string lot = Convert.ToString(lotNo);
+                string lot = Convert.ToString(lotNo) + "\t\t" + obj.ItemName + "\t\t" + Convert.ToString(obj.QuantityInLot);
                 ListBoxItem listBoxItem = new ListBoxItem();
                 listBoxItem.Name = lot;
                 listBoxItem.Width = lotListView.Width - 10;

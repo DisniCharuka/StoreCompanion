@@ -1,8 +1,8 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="f:\projects\storecompanion\store companion\store companion\obj\arm\debug\intermediatexaml\store companion.exe" HashGuid="db090a61-23b6-c127-b475-448575a1c9f8" />
+    <LocalAssembly PathName="f:\projects\storecompanionwp8.1\storecompanion\store companion\store companion\obj\arm\debug\intermediatexaml\store companion.exe" HashGuid="ae18afea-b8bd-10ad-736b-d094e4fecdf9" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
-    <ReferenceAssembly PathName="f:\projects\storecompanion\store companion\packages\sqlite.net.core-pcl.3.1.1\lib\portable-win8+net45+wp8+wpa81+monoandroid1+monotouch1\sqlite.net.dll" HashGuid="2223cbf7-68d4-e5e4-e5e4-a19696ad83b6" />
-    <ReferenceAssembly PathName="f:\projects\storecompanion\store companion\packages\sqlite.net-pcl.3.1.1\lib\portable-win81+wpa81\sqlite.net.platform.winrt.dll" HashGuid="1bc7eaa0-e36a-f105-20d8-c57b14216cea" />
+    <ReferenceAssembly PathName="f:\projects\storecompanionwp8.1\storecompanion\store companion\packages\sqlite.net.core-pcl.3.1.1\lib\portable-win8+net45+wp8+wpa81+monoandroid1+monotouch1\sqlite.net.dll" HashGuid="2223cbf7-68d4-e5e4-e5e4-a19696ad83b6" />
+    <ReferenceAssembly PathName="f:\projects\storecompanionwp8.1\storecompanion\store companion\packages\sqlite.net-pcl.3.1.1\lib\portable-win81+wpa81\sqlite.net.platform.winrt.dll" HashGuid="1bc7eaa0-e36a-f105-20d8-c57b14216cea" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

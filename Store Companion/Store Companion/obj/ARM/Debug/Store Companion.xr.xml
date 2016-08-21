@@ -37,6 +37,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Width" />
       <RootProperty Name="UseLayoutRounding" />
@@ -46,7 +47,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
-      <RootEvent Name="Tapped" />
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -64,6 +66,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="IsReadOnly" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="VerticalAlignment" />
@@ -80,21 +83,31 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
     </RootType>
-    <RootType FullName="Store_Companion.AddNewLot" />
-    <RootType FullName="Store_Companion.AddNewProduct" />
-    <RootType FullName="Store_Companion.LotList" />
-    <RootType FullName="Store_Companion.MainMenu" />
-    <RootType FullName="Store_Companion.MainPage" />
-    <RootType FullName="Store_Companion.ModifyProduct" />
-    <RootType FullName="Store_Companion.ProductList" />
-    <RootType FullName="Store_Companion.ProductType" />
-    <RootType FullName="Store_Companion.ProductTypeList" />
-    <RootType FullName="Store_Companion.Supplier" />
-    <RootType FullName="Store_Companion.SupplierList" />
+    <RootType FullName="Store_Companion.Interfaces.AddNewLot" />
+    <RootType FullName="Store_Companion.Interfaces.AddNewProduct" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Store_Companion.Interfaces.LotList" />
+    <RootType FullName="Store_Companion.Interfaces.MainMenu" />
+    <RootType FullName="Store_Companion.Interfaces.MainPage" />
+    <RootType FullName="Store_Companion.Interfaces.ModifyProduct" />
+    <RootType FullName="Store_Companion.Interfaces.ProductList" />
+    <RootType FullName="Store_Companion.Interfaces.ProductType" />
+    <RootType FullName="Store_Companion.Interfaces.ProductTypeList" />
+    <RootType FullName="Store_Companion.Interfaces.Supplier" />
+    <RootType FullName="Store_Companion.Interfaces.SupplierList" />
+    <RootType FullName="Store_Companion.Interfaces.test100" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="Rotation" />
     </RootType>
     <RootType FullName="Store_Companion.TestDb" />
-    <RootType FullName="Store_Companion.TotalAssets" />
+    <RootType FullName="Store_Companion.Interfaces.TotalAssets" />
   </Roots.RootTypes>
 </Roots>

@@ -32,13 +32,15 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Name="txtSearchProductName" Grid.Column="0"/>
-                <Button x:ConnectionId='3' Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"                                 />  
+                <Button x:ConnectionId='4' Name="btnSearchProduct" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"                                 />  
             </Grid>
         </StackPanel>
         <StackPanel Background="AliceBlue" Grid.Row="2">
             <Grid Background="AliceBlue" Grid.Row="2" >
-                <ListView Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
-                </ListView>
+                <ScrollViewer>
+                    <ListView x:ConnectionId='3' Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"                         IsItemClickEnabled="True"                                                                                    >
+                    </ListView>
+                </ScrollViewer>
             </Grid>
         </StackPanel>
         <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">

@@ -42,10 +42,10 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Lot Number:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtLotNo" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>
+                    <!--<TextBlock Text="Lot Number:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
+                    <TextBox Name="txtLotNo" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>-->
                     <TextBlock Text="Item Name:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtItemName" Grid.Row="1" Grid.Column="1" FontSize="20"></TextBox>
+                    <TextBox Name="txtItemName" Grid.Row="1" Grid.Column="1" FontSize="20" IsReadOnly="True"></TextBox>
                     <TextBlock Text="Quantity in Lot:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"></TextBlock>
                     <TextBox Name="txtQtyInLot" Grid.Row="2" Grid.Column="1" FontSize="20"></TextBox>
                     <TextBlock Text="Price:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"></TextBlock>
@@ -53,7 +53,7 @@
                     <TextBlock Text="Exp. Date:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0"></TextBlock>
                     <DatePicker Name="dateExpDate" Grid.Row="4" Grid.Column="1" Foreground="DarkBlue" ></DatePicker>
                     <TextBlock Text="Supplier:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Grid.Column="0"></TextBlock>
-                    <ComboBox Name="cboSupplier" Grid.Row="5" Grid.Column="1" Foreground="DarkBlue"></ComboBox>
+                    <ComboBox Name="cboSupplier" Grid.Row="5" Grid.Column="1" Foreground="Black"></ComboBox>
                     <!--other row is for Attachments. Will be implemented later-->
                 </Grid>
             </ScrollViewer>

@@ -24,6 +24,7 @@ namespace Store_Companion.Interfaces
     public sealed partial class AddNewLot : Page
     {
         Classes.SupplierTable supplierTable;
+        Classes.ItemsTable itemsTable;
         public AddNewLot()
         {
             this.InitializeComponent();
@@ -51,6 +52,8 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+                object itemName = e.Parameter;
+                txtItemName.Text = itemName.ToString();
         }
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e)
@@ -59,15 +62,17 @@ namespace Store_Companion.Interfaces
             App.conn.CreateTable<Classes.ItemTable>();
             //App.conn.Execute("DELETE FROM ItemTable");
 
-            item.LotNo = Convert.ToInt32(txtLotNo.Text);
+          //  item.LotNo = Convert.ToInt32(txtLotNo.Text);
             item.ItemName = txtItemName.Text;
             item.QuantityInLot = Convert.ToInt32(txtQtyInLot.Text);
             item.Price = Convert.ToDouble(txtPrice.Text);
-            //item.ExpDate = Convert.ToDateTime(dateExpDate);
-            item.SupplierName = cboSupplier.PlaceholderText;
+           // item.ExpDate = Convert.ToDateTime(dateExpDate);
+            item.SupplierName = cboSupplier.SelectedValue.ToString();
+            //item.BuyingDate = System.DateTime.Today;
             
             App.conn.Insert(item);
-            MessageDialog messageBox = new MessageDialog("Sccessfully inserted a new Item record.");
+            itemsTable.CalculateTotalQuantity(item.ItemName, item.QuantityInLot);
+            MessageDialog messageBox = new MessageDialog("Successfully inserted a new Item record.");
             await messageBox.ShowAsync();
 
             Frame.Navigate(typeof(Interfaces.ProductList));

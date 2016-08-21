@@ -34,6 +34,8 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Button Name="btnProductList" Grid.Row="0" Content="Product List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Tapped="btnProductList_Tapped"></Button>
                 <Button Name="btnAddNewProduct" Grid.Row="1" Content="Add New Product" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnAddNewProduct_Click"></Button>
@@ -42,6 +44,9 @@
                 <Button Name="btnTotalAssets" Grid.Row="4" Content="Total Assets" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnTotalAssets_Click"></Button>
                 <Button Name="btnNotifications" Grid.Row="5" Content="Notifications" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch"></Button>
                 <Button Name="btnLotList" Grid.Row="6" Content="Lot List" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnLotList_Click"></Button>
+                <Button Name="btnAddNewLot" Grid.Row="7" Content="Add New Lot" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnAddNewLot_Click"></Button>
+                <Button Name="btnSupplier" Grid.Row="8" Content="Add Supplier" Background="LightBlue" Foreground="DarkBlue" HorizontalAlignment="Stretch" Click="btnSupplier_Click"></Button>
+
             </Grid>
         </StackPanel>
     </Grid>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-CELNGU8</Machine>
+    <Machine>DESKTOP-EF7PNIJ</Machine>
     <WindowsUser>Disni Charuka</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
@@ -9,106 +9,110 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bddc5fce-8b44-448a-942f-5e8e1d144227</PackageIdentityName>
-    <IntermediateOutputPath>F:\projects\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=Disni Charuka</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.exe">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.exe">
       <PackagePath>Store Companion.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\packages\SQLite.Net.Core-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\packages\SQLite.Net.Core-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
       <PackagePath>SQLite.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\packages\SQLite.Net-PCL.3.1.1\lib\portable-win81+wpa81\SQLite.Net.Platform.WinRT.dll">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\packages\SQLite.Net-PCL.3.1.1\lib\portable-win81+wpa81\SQLite.Net.Platform.WinRT.dll">
       <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.13.0\Redist\Debug\x86\sqlite3.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\SQLite.WP81\3.14.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Database\StoreCompanion.sqlite">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Database\StoreCompanion.sqlite">
       <PackagePath>Database\StoreCompanion.sqlite</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\Database\LyricsHub.sqlite">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\Database\LyricsHub.sqlite">
       <PackagePath>Database\LyricsHub.sqlite</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.xr.xml">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Store Companion.xr.xml">
       <PackagePath>Store Companion.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewLot.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewLot.xbf">
       <PackagePath>Interfaces\AddNewLot.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewProduct.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\AddNewProduct.xbf">
       <PackagePath>Interfaces\AddNewProduct.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\LotList.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\LotList.xbf">
       <PackagePath>Interfaces\LotList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainMenu.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainMenu.xbf">
       <PackagePath>Interfaces\MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainPage.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\MainPage.xbf">
       <PackagePath>Interfaces\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ModifyProduct.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ModifyProduct.xbf">
       <PackagePath>Interfaces\ModifyProduct.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductList.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductList.xbf">
       <PackagePath>Interfaces\ProductList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductType.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductType.xbf">
       <PackagePath>Interfaces\ProductType.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductTypeList.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\ProductTypeList.xbf">
       <PackagePath>Interfaces\ProductTypeList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\Supplier.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\Supplier.xbf">
       <PackagePath>Interfaces\Supplier.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\SupplierList.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\SupplierList.xbf">
       <PackagePath>Interfaces\SupplierList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\test100.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\test100.xbf">
       <PackagePath>Interfaces\test100.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\TestDb.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\TestDb.xbf">
       <PackagePath>TestDb.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\TotalAssets.xbf">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\Interfaces\TotalAssets.xbf">
       <PackagePath>Interfaces\TotalAssets.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\projects\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

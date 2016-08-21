@@ -9,6 +9,8 @@ namespace Store_Companion.Classes
 {
     class ItemsTable
     {
+        //ItemsTable itemsTable = new ItemsTable();
+
         [PrimaryKey, AutoIncrement]
         public int ItemCode { get; set; }
         public string ItemName { get; set; }
@@ -17,14 +19,30 @@ namespace Store_Companion.Classes
         public int ExpireAlert { get; set; }
         //no of days from exp.date
         public string ProductType { get; set; }
-
+        public List<Classes.ItemsTable> items;
+        public List<Classes.ItemTable> items1;
 
         public List<Classes.ItemsTable> GetItemsDetails()
         {
-            List<Classes.ItemsTable> items = (from p in App.conn.Table<Classes.ItemsTable>()
+           items = (from p in App.conn.Table<Classes.ItemsTable>()
                                                      select p).ToList();
 
             return items;
+        }
+        
+        public void CalculateTotalQuantity(string itemName, int quantityInLot)
+        {
+            foreach (Classes.ItemTable itemRow in items1) {
+                if (itemRow.ItemName == itemName) {
+                    this.TotalQuantity = itemRow.QuantityInLot;
+                    break;
+                }
+            }
+            this.TotalQuantity += quantityInLot;
+            this.ItemName = itemName;
+            // itemsTable.TotalQuantity = TotalQuantity;
+            //itemsTable.ItemName = itemName;
+            App.conn.Update(this);
         }
     }
 }
