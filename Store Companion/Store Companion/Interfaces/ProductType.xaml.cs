@@ -48,16 +48,16 @@ namespace Store_Companion.Interfaces
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            ItemTypesTable itemType = new ItemTypesTable();
-            App.conn.CreateTable<Classes.ItemTypesTable>();
+            //ItemTypesTable itemType = new ItemTypesTable();
+            //App.conn.CreateTable<Classes.ItemTypesTable>();
 
-            itemType.TypeDescription = txtTypeDescription.Text;
+            //itemType.TypeDescription = txtTypeDescription.Text;
 
-            App.conn.Insert(itemType);
-            MessageDialog messageBox = new MessageDialog("Successfully Inserted an new Item Type record.");
-            await messageBox.ShowAsync();
+            //App.conn.Insert(itemType);
+            //MessageDialog messageBox = new MessageDialog("Successfully Inserted an new Item Type record.");
+            //await messageBox.ShowAsync();
             
-            txtTypeDescription.Text = "";
+            //txtTypeDescription.Text = "";
 
         }
     }

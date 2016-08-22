@@ -15,35 +15,11 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <StackPanel Background="LightBlue"  Grid.Row="0" >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
-                <TextBlock Name="lblScreenHeading" Text="Product Type" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
-            </Grid>
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Product Type" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
-
-        <StackPanel Grid.Row="2" Background="AliceBlue">
-            <ScrollViewer>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Description:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtTypeDescription" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>
-                   
-                </Grid>
-            </ScrollViewer>
-        </StackPanel>
-
-        <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
+        <ScrollViewer Grid.Row="2" Background="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -52,9 +28,21 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" Click="btnAdd_Click"/>
-                <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
+                <TextBlock Text="Description:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
+                <TextBox Name="txtTypeDescription" Grid.Row="0" Grid.Column="1" FontSize="20" Background="WhiteSmoke"></TextBox>
 
+            </Grid>
+        </ScrollViewer>
+        <StackPanel Grid.Row="3" Background="CornflowerBlue" VerticalAlignment="Bottom">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
+                <AppBarButton x:Name="appBarButtonDelete" Grid.Column="1" HorizontalAlignment="Center" Icon="Delete" Label="Delete"/>
+                <AppBarButton x:Name="appBarButtonAccept" Grid.Column="2"  HorizontalAlignment="Center" Icon="Accept" Label="Accept"/>
             </Grid>
         </StackPanel>
     </Grid>
