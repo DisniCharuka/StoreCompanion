@@ -41,20 +41,20 @@ namespace Store_Companion.Interfaces
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            SupplierTable sup = new SupplierTable();
-            App.conn.CreateTable<Classes.SupplierTable>();
-            //App.conn.Execute("DELETE FROM Supplier");
+            //SupplierTable sup = new SupplierTable();
+            //App.conn.CreateTable<Classes.SupplierTable>();
+            ////App.conn.Execute("DELETE FROM Supplier");
 
             
-            sup.SupplierName = txtSupplierName.Text;
-            sup.SupplierTele = txtSupplierTel.Text;
+            //sup.SupplierName = txtSupplierName.Text;
+            //sup.SupplierTele = txtSupplierTel.Text;
 
-            App.conn.Insert(sup);
-            MessageDialog messageBox = new MessageDialog("Supplier record Inserted successfully.");
-            await messageBox.ShowAsync();
+            //App.conn.Insert(sup);
+            //MessageDialog messageBox = new MessageDialog("Supplier record Inserted successfully.");
+            //await messageBox.ShowAsync();
 
-            txtSupplierName.Text = "";
-            txtSupplierTel.Text = "";
+            //txtSupplierName.Text = "";
+            //txtSupplierTel.Text = "";
 
         }
     }
