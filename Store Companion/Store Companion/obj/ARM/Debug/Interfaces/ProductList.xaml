@@ -38,7 +38,7 @@
         <StackPanel Background="AliceBlue" Grid.Row="2">
             <Grid Background="AliceBlue" Grid.Row="2" >
                 <ScrollViewer>
-                <ListView x:ConnectionId='3' Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"                                        >
+                    <ListView x:ConnectionId='3' Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"                         IsItemClickEnabled="True">
                     </ListView>
                 </ScrollViewer>
             </Grid>

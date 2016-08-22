@@ -47,7 +47,7 @@ namespace Store_Companion.Interfaces
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainMenu));
+            Frame.Navigate(typeof(MainPageWindow));
         }
     }
 }

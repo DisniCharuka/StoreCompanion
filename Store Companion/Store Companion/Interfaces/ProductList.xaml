@@ -38,7 +38,7 @@
         <StackPanel Background="AliceBlue" Grid.Row="2">
             <Grid Background="AliceBlue" Grid.Row="2" >
                 <ScrollViewer>
-                    <ListView Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  ItemClick="Hawhawhaw"  IsItemClickEnabled="True" SelectionChanged="productListView_SelectionChanged" Tapped="productListView_Tapped">
+                    <ListView Name="productListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  ItemClick="Hawhawhaw"  IsItemClickEnabled="True">
                     </ListView>
                 </ScrollViewer>
             </Grid>

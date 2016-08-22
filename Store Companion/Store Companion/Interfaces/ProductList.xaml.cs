@@ -92,17 +92,17 @@ namespace Store_Companion.Interfaces
             int x = 0;
         }
 
-        private void productListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+        //private void productListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
 
-        }
+        //}
 
-        private void productListView_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string hawwa = ((ListView)sender).Name;
+        //private void productListView_Tapped(object sender, TappedRoutedEventArgs e)
+        //{
+        //    //string hawwa = ((ListView)sender).cont;
 
 
-        }
+        //}
     }
 }
 

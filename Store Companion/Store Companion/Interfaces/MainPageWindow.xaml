@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="Store_Companion.Interfaces.MainPageWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Store_Companion.Interfaces"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Main Menu" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <StackPanel Background="White" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Name="btnProductList" Content="Product List" Background="CornflowerBlue" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" Height="164" Click="btnProductList_Click"></Button>
+                <Button Name="btnNewproduct" Content="New Product" Background="CornflowerBlue"  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Height="164" Click="btnNewproduct_Click"></Button>
+                <Button Name="btnProductTypes" Content="Product Types" Background="CornflowerBlue" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Height="164" Click="btnProductTypes_Click"></Button>
+                <Button Name="btnSuppliers" Content="Suppliers" Background="CornflowerBlue" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" Height="164" Click="btnSuppliers_Click"></Button>
+                <Button Name="btnAddNewLot" Content="Add New Lot" Background="CornflowerBlue" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" Height="164" Click="btnAddNewLot_Click"></Button>
+                <Button Name="btnNotifications" Content="Notifications" Background="CornflowerBlue" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" Height="164" Click="btnNotifications_Click"></Button>
+            </Grid>
+        </StackPanel>
+       
+    </Grid>
+</Page>

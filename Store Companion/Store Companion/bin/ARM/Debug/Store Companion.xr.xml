@@ -12,6 +12,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Background" />
+      <RootProperty Name="ChildrenTransitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -36,8 +37,8 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Width" />
       <RootProperty Name="UseLayoutRounding" />
@@ -58,8 +59,10 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Name" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="CharacterSpacing" />
+      <RootProperty Name="TextWrapping" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
@@ -92,11 +95,15 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsItemClickEnabled" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Store_Companion.Interfaces.LotList" />
     <RootType FullName="Store_Companion.Interfaces.MainMenu" />
     <RootType FullName="Store_Companion.Interfaces.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
+    <RootType FullName="Store_Companion.Interfaces.MainPageWindow" />
     <RootType FullName="Store_Companion.Interfaces.ModifyProduct" />
     <RootType FullName="Store_Companion.Interfaces.ProductList" />
     <RootType FullName="Store_Companion.Interfaces.ProductType" />

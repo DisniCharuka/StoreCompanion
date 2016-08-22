@@ -92,6 +92,10 @@
     <Compile Include="Classes\ItemsTable.cs" />
     <Compile Include="Classes\ItemTypesTable.cs" />
     <Compile Include="Classes\SupplierTable.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Interfaces\AddNewLot.xaml.cs">
       <DependentUpon>AddNewLot.xaml</DependentUpon>
     </Compile>
@@ -110,6 +114,9 @@
     </Compile>
     <Compile Include="Interfaces\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\MainPageWindow.xaml.cs">
+      <DependentUpon>MainPageWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\ModifyProduct.xaml.cs">
       <DependentUpon>ModifyProduct.xaml</DependentUpon>
@@ -177,6 +184,10 @@
     <Page Include="Interfaces\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Interfaces\MainPageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Interfaces\ModifyProduct.xaml">
       <SubType>Designer</SubType>

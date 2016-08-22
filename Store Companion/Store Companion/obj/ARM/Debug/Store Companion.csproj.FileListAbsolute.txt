@@ -194,3 +194,8 @@ F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\o
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\ProjectArchitectures.txt
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Store Companion.csprojResolveAssemblyReference.cache
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPageWindow.g.i.cs
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPageWindow.g.cs
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPageWindow.xaml
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPageWindow.xbf
+F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPageWindow.xbf

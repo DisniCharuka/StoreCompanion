@@ -10,6 +10,7 @@ Interfaces\AddNewProduct.xbf
 Interfaces\LotList.xbf
 Interfaces\MainMenu.xbf
 Interfaces\MainPage.xbf
+Interfaces\MainPageWindow.xbf
 Interfaces\ModifyProduct.xbf
 Interfaces\ProductList.xbf
 Interfaces\ProductType.xbf

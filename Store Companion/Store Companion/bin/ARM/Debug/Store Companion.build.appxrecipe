@@ -85,6 +85,9 @@
     <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPage.xbf">
       <PackagePath>Interfaces\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPageWindow.xbf">
+      <PackagePath>Interfaces\MainPageWindow.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ModifyProduct.xbf">
       <PackagePath>Interfaces\ModifyProduct.xbf</PackagePath>
     </AppxPackagedFile>
