@@ -99,7 +99,6 @@
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Store_Companion.Interfaces.LotList" />
-    <RootType FullName="Store_Companion.Interfaces.MainMenu" />
     <RootType FullName="Store_Companion.Interfaces.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />

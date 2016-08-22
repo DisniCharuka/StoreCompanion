@@ -8,7 +8,6 @@ App.xbf
 Interfaces\AddNewLot.xbf
 Interfaces\AddNewProduct.xbf
 Interfaces\LotList.xbf
-Interfaces\MainMenu.xbf
 Interfaces\MainPage.xbf
 Interfaces\MainPageWindow.xbf
 Interfaces\ModifyProduct.xbf

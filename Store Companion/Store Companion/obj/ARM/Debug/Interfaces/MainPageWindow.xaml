@@ -38,12 +38,12 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Content="Product List" Background="CornflowerBlue" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" Height="164"></Button>
-                <Button Content="New Product" Background="CornflowerBlue"  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Height="164"></Button>
-                <Button Content="Product Types" Background="CornflowerBlue" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Height="164"></Button>
-                <Button Content="Supplier List" Background="CornflowerBlue" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" Height="164"></Button>
-                <Button Content="New Supplier" Background="CornflowerBlue" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" Height="164"></Button>
-                <Button Content="Notifications" Background="CornflowerBlue" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" Height="164"></Button>
+                <Button x:ConnectionId='1' Name="btnProductList" Content="Product List" Background="CornflowerBlue" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" Height="164"                             ></Button>
+                <Button x:ConnectionId='2' Name="btnNewproduct" Content="New Product" Background="CornflowerBlue"  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Height="164"                            ></Button>
+                <Button x:ConnectionId='3' Name="btnProductTypes" Content="Product Types" Background="CornflowerBlue" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Height="164"                              ></Button>
+                <Button x:ConnectionId='4' Name="btnSuppliers" Content="Suppliers" Background="CornflowerBlue" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" Height="164"                           ></Button>
+                <Button x:ConnectionId='5' Name="btnAddNewLot" Content="Add New Lot" Background="CornflowerBlue" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" Height="164"                           ></Button>
+                <Button x:ConnectionId='6' Name="btnNotifications" Content="Notifications" Background="CornflowerBlue" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" Height="164"                               ></Button>
             </Grid>
         </StackPanel>
        

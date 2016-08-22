@@ -79,9 +79,6 @@
     <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\LotList.xbf">
       <PackagePath>Interfaces\LotList.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainMenu.xbf">
-      <PackagePath>Interfaces\MainMenu.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPage.xbf">
       <PackagePath>Interfaces\MainPage.xbf</PackagePath>
     </AppxPackagedFile>

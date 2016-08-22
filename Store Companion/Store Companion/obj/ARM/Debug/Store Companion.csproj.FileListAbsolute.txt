@@ -97,7 +97,6 @@ F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\b
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\AddNewLot.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\AddNewProduct.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\LotList.xbf
-F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainMenu.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\MainPage.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ModifyProduct.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\bin\ARM\Debug\Interfaces\ProductList.xbf
@@ -124,8 +123,6 @@ F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\o
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\AddNewProduct.g.cs
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\LotList.g.i.cs
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\LotList.g.cs
-F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainMenu.g.i.cs
-F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainMenu.g.cs
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPage.g.i.cs
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPage.g.cs
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\ModifyProduct.g.i.cs
@@ -151,7 +148,6 @@ F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\o
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\AddNewLot.xaml
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\AddNewProduct.xaml
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\LotList.xaml
-F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainMenu.xaml
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPage.xaml
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\ModifyProduct.xaml
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\ProductList.xaml
@@ -166,7 +162,6 @@ F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\o
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\AddNewLot.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\AddNewProduct.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\LotList.xbf
-F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainMenu.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\MainPage.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\ModifyProduct.xbf
 F:\Projects\StoreCompanionWP8.1\StoreCompanion\Store Companion\Store Companion\obj\ARM\Debug\Interfaces\ProductList.xbf
