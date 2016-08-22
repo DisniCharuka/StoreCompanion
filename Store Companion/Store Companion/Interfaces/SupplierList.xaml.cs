@@ -75,7 +75,7 @@ namespace Store_Companion.Interfaces
 
         private void btnNewSupplier_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Interfaces.Supplier));
+            //Frame.Navigate(typeof(Interfaces.Supplier));
         }
     }
 }
