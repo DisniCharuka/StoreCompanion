@@ -56,7 +56,7 @@ namespace Store_Companion.Interfaces
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            Classes.ItemsTable items = new Classes.ItemsTable();
+            /*Classes.ItemsTable items = new Classes.ItemsTable();
             App.conn.CreateTable<Classes.ItemsTable>();
             //App.conn.Execute("DELETE FROM ItemsTable");
 
@@ -70,7 +70,7 @@ namespace Store_Companion.Interfaces
             await messageBox.ShowAsync();
 
             //Frame.Navigate(typeof(AddNewLot));
-            Frame.Navigate(typeof(AddNewLot), txtItemName.Text);
+            Frame.Navigate(typeof(AddNewLot), txtItemName.Text);*/
 
             //cboProductType.PlaceholderText = "";
             //txtItemName.Text = "";
