@@ -58,9 +58,9 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <AppBarButton x:Name="appBarButtonAccept" Grid.Column="0"  HorizontalAlignment="Center" Icon="Accept" Label="Accept"/>
-                <AppBarButton x:Name="b2" Grid.Column="2" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
-                <AppBarButton x:Name="b3" Grid.Column="1" HorizontalAlignment="Center" Icon="Delete" Label="Delete"/>
+                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
+                <AppBarButton x:Name="appBarButtonDelete" Grid.Column="1" HorizontalAlignment="Center" Icon="Delete" Label="Delete"/>
+                <AppBarButton x:Name="appBarButtonAccept" Grid.Column="2"  HorizontalAlignment="Center" Icon="Accept" Label="Accept"/>
             </Grid>
         </StackPanel>
     </Grid>
