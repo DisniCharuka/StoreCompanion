@@ -63,7 +63,7 @@ namespace Store_Companion.Interfaces
 
         private void btnNewType_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Interfaces.ProductType));
+            //Frame.Navigate(typeof(Interfaces.ProductType));
         }
     }
 }
