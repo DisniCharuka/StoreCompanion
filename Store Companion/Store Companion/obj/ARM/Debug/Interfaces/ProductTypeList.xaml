@@ -15,15 +15,9 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <StackPanel Background="LightBlue"  Grid.Row="0" >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
-                <TextBlock Name="lblScreenHeading" Text="Product Type List" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
-            </Grid>
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Product Type List" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Background="White">
             <Grid>
@@ -32,27 +26,21 @@
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBox Name="txtSearchProductType" Grid.Column="0"/>
-                <Button Name="btnSearchProductType" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"/>
+                <Button Name="btnSearchProductType" HorizontalAlignment="Right" Background="CornflowerBlue" Margin="0,0,9,1"/>
             </Grid>
         </StackPanel>
-        <StackPanel Background="AliceBlue" Grid.Row="2">
-            <Grid Background="AliceBlue" Grid.Row="2" >
-                <ListView Name="itemTypeListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
-                </ListView>
-            </Grid>
-        </StackPanel>
-        <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
+        <ScrollViewer Background="White" Grid.Row="2">
+            <ListView Name="itemTypeListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
+            </ListView>
+        </ScrollViewer>
+        <StackPanel Grid.Row="3" Background="CornflowerBlue" VerticalAlignment="Bottom">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button x:ConnectionId='1' Grid.Column="0" Content="New Type" Name="btnNewType" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" Margin="0,0,0,0.5" VerticalAlignment="Bottom"                         />
-                <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
-
+                <AppBarButton x:Name="appBarButtonAdd" Grid.Column="1" HorizontalAlignment="Center" Icon="Add" Label="Add"/>
+                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
             </Grid>
         </StackPanel>
     </Grid>

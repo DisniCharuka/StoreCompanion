@@ -57,5 +57,25 @@ namespace Store_Companion.Interfaces
             //txtSupplierTel.Text = "";
 
         }
+
+        private async void appBarButtonAccept_Click(object sender, RoutedEventArgs e)
+        {
+            SupplierTable sup = new SupplierTable();
+            App.conn.CreateTable<Classes.SupplierTable>();
+            //App.conn.Execute("DELETE FROM Supplier");
+
+
+            sup.SupplierName = txtSupplierName.Text;
+            sup.SupplierTele = txtSupplierTel.Text;
+
+            App.conn.Insert(sup);
+            MessageDialog messageBox = new MessageDialog("Supplier record Inserted successfully.");
+            await messageBox.ShowAsync();
+
+            txtSupplierName.Text = "";
+            txtSupplierTel.Text = "";
+
+            Frame.Navigate(typeof(Interfaces.SupplierList));
+        }
     }
 }

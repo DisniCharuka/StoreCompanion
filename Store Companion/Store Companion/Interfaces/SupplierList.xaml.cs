@@ -77,6 +77,11 @@ namespace Store_Companion.Interfaces
         {
             //Frame.Navigate(typeof(Interfaces.Supplier));
         }
+
+        private void appBarButtonAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.Supplier));
+        }
     }
 }
 

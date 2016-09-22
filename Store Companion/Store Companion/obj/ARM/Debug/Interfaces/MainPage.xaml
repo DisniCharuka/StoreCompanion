@@ -13,19 +13,13 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Background="LightBlue"  Grid.Row="0" >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="auto"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
-                <TextBlock Name="lblScreenHeading" Text="Please Log In.." Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
-            </Grid>
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Welcome!" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
 
-        <StackPanel Background="AliceBlue" Grid.Row="2">
-            <Button x:ConnectionId='1' x:Name="btnLogin" Content="LOGIN" Foreground="DarkBlue" Background="LightBlue" HorizontalAlignment="Center"                        />
+        <StackPanel Background="White" Grid.Row="2">
+            <Button x:ConnectionId='1' x:Name="btnLogin" Content="LOGIN" Foreground="White" Background="CornflowerBlue" HorizontalAlignment="Center"                        />
         </StackPanel>
       
     </Grid>

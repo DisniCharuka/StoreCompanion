@@ -39,8 +39,8 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <AppBarButton x:Name="appBarButtonAdd" Grid.Column="1" HorizontalAlignment="Center" Icon="Add" Label="Add"/>
-                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
+                <AppBarButton x:Name="appBarButtonAdd" Grid.Column="1" HorizontalAlignment="Center" Icon="Add" Label="Add" Click="appBarButtonAdd_Click"/>
+                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel" Click="appBarButtonCancel_Click"/>
             </Grid>
         </StackPanel>
     </Grid>

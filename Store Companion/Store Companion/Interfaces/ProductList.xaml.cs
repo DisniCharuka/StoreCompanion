@@ -81,15 +81,25 @@ namespace Store_Companion.Interfaces
         {
             Frame.Navigate(typeof(Interfaces.AddNewProduct));
         }
+        
+        private void Hawhawhaw(object sender, ItemClickEventArgs e)
+        {
+            int x = 0;
+        }
 
-        private void btnAddLot_Click(object sender, RoutedEventArgs e)
+        private void appBarButtonAdd_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Interfaces.AddNewLot));
         }
 
-        private void Hawhawhaw(object sender, ItemClickEventArgs e)
+        private void appBarButtonCancel_Click(object sender, RoutedEventArgs e)
         {
-            int x = 0;
+            Frame.Navigate(typeof(Interfaces.MainPageWindow));
+        }
+
+        private void btnAddLot_Click(object sender, RoutedEventArgs e)
+        {
+            //Frame.Navigate(typeof(Interfaces.AddNewLot));
         }
 
         //private void productListView_SelectionChanged(object sender, SelectionChangedEventArgs e)

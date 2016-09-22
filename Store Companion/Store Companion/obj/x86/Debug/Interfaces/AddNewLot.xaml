@@ -14,63 +14,53 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <StackPanel Background="LightBlue"  Grid.Row="0" >
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Add New Lot" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="2" Background="White">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-                <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
-                <TextBlock Name="lblScreenHeading" Text="Add New Lot" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
-            </Grid>
-        </StackPanel>
-
-        <StackPanel Grid.Row="2" Background="AliceBlue">
-            <ScrollViewer>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                        <RowDefinition Height="auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <!--<TextBlock Text="Lot Number:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtLotNo" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>-->
-                    <TextBlock Text="Item Name:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtItemName" Grid.Row="1" Grid.Column="1" FontSize="20" IsReadOnly="True"></TextBox>
-                    <TextBlock Text="Quantity in Lot:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtQtyInLot" Grid.Row="2" Grid.Column="1" FontSize="20"></TextBox>
-                    <TextBlock Text="Price:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"></TextBlock>
-                    <TextBox Name="txtPrice" Grid.Row="3" Grid.Column="1" FontSize="20"></TextBox>
-                    <TextBlock Text="Exp. Date:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0"></TextBlock>
-                    <DatePicker Name="dateExpDate" Grid.Row="4" Grid.Column="1" Foreground="DarkBlue" ></DatePicker>
-                    <TextBlock Text="Supplier:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Grid.Column="0"></TextBlock>
-                    <ComboBox Name="cboSupplier" Grid.Row="5" Grid.Column="1" Foreground="Black"></ComboBox>
-                    <!--other row is for Attachments. Will be implemented later-->
-                </Grid>
-            </ScrollViewer>
-        </StackPanel>
-
-        <StackPanel  Grid.Row="3" Background="AliceBlue" VerticalAlignment="Bottom">
-            <Grid>
-                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button x:ConnectionId='1' Grid.Column="0" Content="Add" Name="btnAdd" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0"                     />
-                <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
+                <!--<TextBlock Text="Lot Number:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0"></TextBlock>
+                    <TextBox Name="txtLotNo" Grid.Row="0" Grid.Column="1" FontSize="20"></TextBox>-->
+                <TextBlock Text="Item Name:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0"></TextBlock>
+                <TextBox Name="txtItemName" Grid.Row="1" Grid.Column="1" Background="WhiteSmoke" FontSize="20" IsReadOnly="True"></TextBox>
+                <TextBlock Text="Quantity in Lot:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"></TextBlock>
+                <TextBox Name="txtQtyInLot" Grid.Row="2" Grid.Column="1" Background="WhiteSmoke" FontSize="20"></TextBox>
+                <TextBlock Text="Price:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"></TextBlock>
+                <TextBox Name="txtPrice" Grid.Row="3" Grid.Column="1" Background="WhiteSmoke" FontSize="20"></TextBox>
+                <TextBlock Text="Exp. Date:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0"></TextBlock>
+                <DatePicker Name="dateExpDate" Grid.Row="4" Grid.Column="1" Background="WhiteSmoke" Foreground="DarkBlue" ></DatePicker>
+                <TextBlock Text="Supplier:" Foreground="Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5" Grid.Column="0"></TextBlock>
+                <ComboBox Name="cboSupplier" Grid.Row="5" Grid.Column="1" Background="WhiteSmoke" Foreground="Black" ></ComboBox>
+                <!--other row is for Attachments. Will be implemented later-->
+            </Grid>
+        </ScrollViewer>
 
+        <StackPanel Grid.Row="3" Background="CornflowerBlue" VerticalAlignment="Bottom">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <AppBarButton x:ConnectionId='1' x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"                                 />
+                <AppBarButton x:ConnectionId='2' x:Name="appBarButtonDelete" Grid.Column="1" HorizontalAlignment="Center" Icon="Delete" Label="Delete"                                 />
+                <AppBarButton x:ConnectionId='3' x:Name="appBarButtonAccept" Grid.Column="2"  HorizontalAlignment="Center" Icon="Accept" Label="Accept"                                 />
             </Grid>
         </StackPanel>
     </Grid>

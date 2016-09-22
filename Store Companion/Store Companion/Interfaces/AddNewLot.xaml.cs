@@ -52,30 +52,65 @@ namespace Store_Companion.Interfaces
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-                object itemName = e.Parameter;
-                txtItemName.Text = itemName.ToString();
+            object itemName = e.Parameter;
+            txtItemName.Text = itemName.ToString();
         }
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e)
         {
+        //    Classes.ItemTable item = new Classes.ItemTable();
+        //    App.conn.CreateTable<Classes.ItemTable>();
+        //    //App.conn.Execute("DELETE FROM ItemTable");
+
+        //  //  item.LotNo = Convert.ToInt32(txtLotNo.Text);
+        //    item.ItemName = txtItemName.Text;
+        //    item.QuantityInLot = Convert.ToInt32(txtQtyInLot.Text);
+        //    item.Price = Convert.ToDouble(txtPrice.Text);
+        //   // item.ExpDate = Convert.ToDateTime(dateExpDate);
+        //    item.SupplierName = cboSupplier.SelectedValue.ToString();
+        //    //item.BuyingDate = System.DateTime.Today;
+            
+        //    App.conn.Insert(item);
+        //    itemsTable.CalculateTotalQuantity(item.ItemName, item.QuantityInLot);
+        //    MessageDialog messageBox = new MessageDialog("Successfully inserted a new Item record.");
+        //    await messageBox.ShowAsync();
+
+        //    Frame.Navigate(typeof(Interfaces.ProductList));
+        }
+
+        private async void appBarButtonAccept_Click(object sender, RoutedEventArgs e)
+        {
             Classes.ItemTable item = new Classes.ItemTable();
             App.conn.CreateTable<Classes.ItemTable>();
             //App.conn.Execute("DELETE FROM ItemTable");
-
-          //  item.LotNo = Convert.ToInt32(txtLotNo.Text);
+            
             item.ItemName = txtItemName.Text;
             item.QuantityInLot = Convert.ToInt32(txtQtyInLot.Text);
             item.Price = Convert.ToDouble(txtPrice.Text);
-           // item.ExpDate = Convert.ToDateTime(dateExpDate);
+            // item.ExpDate = Convert.ToDateTime(dateExpDate);
             item.SupplierName = cboSupplier.SelectedValue.ToString();
             //item.BuyingDate = System.DateTime.Today;
-            
+
             App.conn.Insert(item);
             itemsTable.CalculateTotalQuantity(item.ItemName, item.QuantityInLot);
-            MessageDialog messageBox = new MessageDialog("Successfully inserted a new Item record.");
+            MessageDialog messageBox = new MessageDialog("Successfully inserted a new lot");
             await messageBox.ShowAsync();
 
             Frame.Navigate(typeof(Interfaces.ProductList));
+        }
+
+        private void appBarButtonCancel_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Interfaces.ProductList));
+        }
+
+        private void appBarButtonDelete_Click(object sender, RoutedEventArgs e)
+        {
+            txtItemName.Text = "";
+            txtPrice.Text = "";
+            txtQtyInLot.Text = "";
+            cboSupplier.SelectedValue = "";
+            
         }
     }
 }

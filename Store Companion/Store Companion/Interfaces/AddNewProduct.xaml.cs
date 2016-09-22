@@ -77,5 +77,24 @@ namespace Store_Companion.Interfaces
             //txtQuantityAlert.Text = "";
             //txtExpDateAlert.Text = "";
         }
+
+        private async void appBarButtonAccept_Click(object sender, RoutedEventArgs e)
+        {
+           Classes.ItemsTable items = new Classes.ItemsTable();
+           App.conn.CreateTable<Classes.ItemsTable>();
+           //App.conn.Execute("DELETE FROM ItemsTable");
+
+           items.ProductType = cboProductType.SelectedValue.ToString();
+           items.ItemName = txtItemName.Text;
+           items.QuantityAlert = Convert.ToInt32(txtQuantityAlert.Text);
+           items.ExpireAlert = Convert.ToInt32(txtExpDateAlert.Text);
+
+           App.conn.Insert(items);
+           MessageDialog messageBox = new MessageDialog("Successfully inserted a Product record.");
+           await messageBox.ShowAsync();
+
+           //Frame.Navigate(typeof(AddNewLot));
+           Frame.Navigate(typeof(AddNewLot), txtItemName.Text);
+        }
     }
 }

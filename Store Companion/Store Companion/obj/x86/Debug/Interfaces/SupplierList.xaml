@@ -15,39 +15,32 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <Grid Background="LightBlue"  Grid.Row="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <TextBlock Name="lblStoreHeading" Grid.Row="0" Text="STORE COMPANION" FontSize="24" HorizontalAlignment="Center" Foreground="DarkBlue" FontWeight="Bold"/>
-            <TextBlock Name="lblScreenHeading" Text="Supplier List" Grid.Row="1" FontSize="22" HorizontalAlignment="Left" Foreground="Blue"/>
-        </Grid>
+        <StackPanel Background="White" Grid.Row="0">
+            <TextBlock Text="STORE COMPANION" Foreground="Blue" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Supplier List" Foreground="DarkBlue" HorizontalAlignment="Center" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
         <Grid Grid.Row="1" Background="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <TextBox Name="txtSearchSupplier" Grid.Column="0"/>
-            <Button Name="btnSearchSupplier" Grid.Column="1" HorizontalAlignment="Right" Background="LightBlue" Margin="0,0,-5,1"/>
+            <Button Name="btnSearchSupplier" HorizontalAlignment="Right" Background="CornflowerBlue" Margin="0,0,7,1"/>
         </Grid>
-        <Grid Background="AliceBlue" Grid.Row="2" >
+        <ScrollViewer Background="White" Grid.Row="2" >
             <ListView Name="supplierListView" Width="380" Foreground="Black" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"  >
             </ListView>
-        </Grid>
-        <Grid Grid.Row="3" Background="AliceBlue">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='1' Grid.Column="0" Content="New Supplier" Name="btnNewSupplier" Foreground="DarkBlue" Background="LightBlue" FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" VerticalAlignment="Top" Height="58"                             />
-            <Button Grid.Column="1" Content="Cancel" Name="btnCancel" Foreground="DarkBlue" Background="LightBlue"  FontSize="20" HorizontalAlignment="Stretch" Grid.Row="0" />
-
-        </Grid>
-
+        </ScrollViewer>
+        <StackPanel Grid.Row="3" Background="CornflowerBlue" VerticalAlignment="Bottom">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <AppBarButton x:ConnectionId='1' x:Name="appBarButtonAdd" Grid.Column="1" HorizontalAlignment="Center" Icon="Add" Label="Add"                              />
+                <AppBarButton x:Name="appBarButtonCancel" Grid.Column="0" HorizontalAlignment="Center" Icon="Cancel" Label="Cancel"/>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Page>
 
